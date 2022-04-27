@@ -1,0 +1,32 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duwls8910/socket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duwls8910/socket.io/issues"
+  },
+  "homepage": "https://github.com/duwls8910/socket.io#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "nunjucks": "^3.2.0",
+    "ws": "^8.2.3",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
